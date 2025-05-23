@@ -1,10 +1,10 @@
 # Example config
 
-botToken: "" # Bot token
+botToken: "token" # Bot token
 mode: "normal" # Possible values: "normal", "dev". Don't change this unless you know what you're doing
 masterKey: "key" # You can set any value unless you know what you're doing
-topggToken: "" # (This is optional if your bot isn't in topgg)
-topggWebhookAuth: "" # (This is optional if your bot isn't in topgg)
+#topggToken: "token" # (This is optional if your bot isn't in topgg)
+#topggWebhookAuth: "password" # (This is optional if your bot isn't in topgg)
 testingToken: "" # (Optional) Testing bot token
 llnodes: # List of lavalink nodes. See https://wavelink.dev/en/latest/wavelink.html#node
   - uri: "http://localhost:2333" # Node url
