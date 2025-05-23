@@ -1,0 +1,7 @@
+config.yml
+cogs/__pycache__
+__pycache__
+env
+userplaylists.db
+dynamiccooldowns.db
+.vscode

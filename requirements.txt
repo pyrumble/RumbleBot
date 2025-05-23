@@ -1,0 +1,8 @@
+wavelink
+discord.py
+aiohttp
+pyyaml
+asqlite
+uvicorn
+fastapi
+easy-PIL

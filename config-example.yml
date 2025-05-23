@@ -1,0 +1,13 @@
+# Example config
+
+botToken: "" # Bot token
+mode: "normal" # Possible values: "normal", "dev". Don't change this unless you know what you're doing
+masterKey: "key" # You can set any value unless you know what you're doing
+topggToken: "" # (This is optional if your bot isn't in topgg)
+topggWebhookAuth: "" # (This is optional if your bot isn't in topgg)
+testingToken: "" # (Optional) Testing bot token
+llnodes: # List of lavalink nodes. See https://wavelink.dev/en/latest/wavelink.html#node
+  - uri: "http://localhost:2333" # Node url
+    password: "youshallnotpass" # Node password
+    inactive_player_timeout: 300 # (Optional) The player timeout in seconds. Default timeout is 300
+    identifier: "node1" # (Optional) # Node identifier. Must be unique
